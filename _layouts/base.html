@@ -18,7 +18,9 @@
     <link rel="stylesheet" type="text/css" href="{{ relative_root_path }}/assets/css/syntax.css" />
     <link rel="license" href="#license-info" />
 
-    {% include favicons.html %}
+    <link rel="icon" href="{{ relative_root_path }}/assets/img/favicon/cropped-UKRN-Logo-150-32x32.png" sizes="32x32" />
+    <link rel="icon" href="{{ relative_root_path }}/assets/img/favicon/cropped-UKRN-Logo-150-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ relative_root_path }}/assets/img/favicon/cropped-UKRN-Logo-150-180x180.png" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +31,7 @@
 
   <title>
   {% if page.title %}{{ page.title }}{% endif %}{% if page.title and site.title %} &ndash; {% endif %}{% if site.title %}{{ site.title }}{% endif %}
-  </title>  
+  </title>
 
   </head>
   <body>
