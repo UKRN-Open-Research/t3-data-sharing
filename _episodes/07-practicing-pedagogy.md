@@ -17,3 +17,14 @@ day: 1
 order: 700000
 
 ---
+
+> ## In small groups `30 min`
+> * Take turns selecting a part of one of your lessons to present, ideally including an activity to oversee
+> * Present that component to the other members of the group
+{: .challenge}
+
+> ## Feedback `15 min`
+> * When you've all had a turn presenting, discuss what you liked about one another's presentations
+>   * How could it be improved?
+>   * How did it feel to present?
+{: .discussion}

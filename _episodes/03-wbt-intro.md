@@ -25,7 +25,7 @@ order: 300000
 
 Building a workshop can be a lot of work, and a lot of that work is the same for all of you, despite the specific content being different.
 We've tried to streamline the workshop creating process for you with the use of this Workshop Builder Tool.
-You can access the tool at [https://ukrn-wb.netlify.app/](https://ukrn-wb.netlify.app/).
+You can access the tool at <a href="{{ site.ukrn_or_builder }}" target="_blank">{{ site.ukrn_or_builder }}</a>.
 
 ### How it works
 
@@ -42,8 +42,8 @@ The GitHub Pages template we use is fairly complex (based on [The Carpentries' t
 
 You'll need a GitHub account - you can create one via the Builder Tool if you don't already have one.
 
-> ## Create a workshop
-> 1. Go to the [Workshop Builder Tool](https://ukrn-wb.netlify.app/)
+> ## Create a workshop `5 min`
+> 1. Go to the <a href="{{ site.ukrn_or_builder }}" target="_blank">Workshop Builder Tool</a>
 > 2. Press the button to log in to your GitHub account (it will let you create one if you need to!)
 > 3. **Create a new repository**
 > 4. Select a **topic** and a **title** for your workshop, then scroll to the bottom of the Customize Workshop page and click the button
@@ -70,7 +70,7 @@ You can add and customise lessons created by other users of the Workshop Builder
 There are also template lessons if you want to build yours from scratch.
 Let's start by customising an introductory lesson.
 
-> ## Add jspsych-born-open-data Introduction
+> ## Add jspsych-born-open-data Introduction `10 min`
 > 1. Click 'Add Items to Stash'
 > 2. Enter 'mjaquiery' in the search box to narrow the results down
 > 3. Select the dropdown for 'jspsych-born-open-data' and wait while the results are fetched
@@ -99,17 +99,17 @@ Click either of the 'save' buttons and you'll see the website updates in a few s
 
 ## Open Research Resource Browser
 
-The [Open Research Resource Browser](https://ukrn-orr.netlify.app/) is a tool that reads and filters a Google Sheets document we have created (and to which you can contribute) which lists open research resources.
+The <a href="{{ site.ukrn_or_browser }}" target="_blank">Open Research Resource Browser</a> is a tool that reads and filters a Google Sheets document we have created (and to which you can contribute) which lists open research resources.
 
 You should find the Browser intuitive to use, but ask if you're not sure.
 
-> ## Can you...
+> ## Can you... `5 min`
 > 1. Find NASA's GeneLab
 > 2. Work out how many Humanities resources there are
 > 3. Find the data repositories which mention 'sequence' in their description
 {: .challenge}
 
-The spreadsheet the resources are taken from is [available to view](https://docs.google.com/spreadsheets/d/1cqsyS6RWQ38dU0Jc_ZyENZjRTFLj96AsiZVM4oxDWBA/edit?usp=sharing) and we welcome suggestions for additional contributions.
+The spreadsheet the resources are taken from is <a href="{{ site.ukrn_or_resources }}" target="_blank">available to view</a> and we welcome suggestions for additional contributions.
 Contributions can be added and available instantly, so just ask us to add something if you need it.
 
 ## Using the Tools
@@ -119,4 +119,4 @@ Our aim is that you have a workshop created ready to deliver by the time we fini
 Whether you do that using our tools or your own (e.g. making your own slides) we don't mind - we'll help as best we can whatever you choose.
 
 We do hope you'll find the tools useful, of course - and we'd love to know how we can make them better.
-You can send any feedback about the tools to <a href="mailto:{{ site.urkn_email }}?Subject=UKRN Open Research Tools">{{ site.ukrn_email }}</a>.
+You can send any feedback about the tools to <a href="mailto:{{ site.ukrn_email }}?Subject=UKRN Open Research Tools">{{ site.ukrn_email }}</a>.

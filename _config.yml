@@ -35,6 +35,11 @@ carpentries_site: https://carpentries.org/
 pre_survey: https://carpentries.typeform.com/to/wi32rS?slug=
 post_survey: https://carpentries.typeform.com/to/UgVdRQ?slug=
 
+ukrn_or_template: https://docs.google.com/document/d/1G0SSCMjzom8sAytZlOOonaQPg4Tab5q9mML6pzcazkA/edit#
+ukrn_or_builder: https://ukrn-wb.netlify.app/
+ukrn_or_browser: https://ukrn-orr.netlify.app/
+ukrn_or_resources: https://docs.google.com/spreadsheets/d/1cqsyS6RWQ38dU0Jc_ZyENZjRTFLj96AsiZVM4oxDWBA/edit?usp=sharing
+
 # Fixed fields
 collections:
   episodes:

@@ -18,3 +18,25 @@ day: 1
 order: 500000
 
 ---
+
+We now have a chance to actually build a workshop.
+We are not aiming for a template or for notes that we're expecting you to develop on your own time - we want to produce a workshop right now that you could deliver tomorrow morning.
+
+You have your workshop plan from the <a href="{{ site.ukrn_or_template }}" target="_blank">template</a>.
+Now you can build that plan into a workshop using the <a href="{{ site.ukrn_or_builder }}" target="_blank">Workshop Builder Tool</a> and <a href="{{ site.ukrn_or_browser }}" target="_blank">Open Research Resources Browser</a>.
+If you prefer, you can create your workshop using other tools, of course - the important thing is to get it done!
+
+> ## Remember:
+> * The focus is on producing practical changes
+> * Don't give out homework
+> * What do they need to understand to implement workflow changes?
+{: .callout}
+
+> ## We're here to help
+> Ask us if you get stuck, or just want to talk something over.
+>
+> You can ask questions in the chat, or ask one of us out loud.
+> Everyone else can ignore the chat/conversation and get on with creating a workshop while it's all going smoothly.
+{: .testimonial}
+
+We'll have a break in 90 minutes and take stock of how everyone's getting on.
