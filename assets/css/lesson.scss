@@ -340,3 +340,7 @@ kbd {
     white-space: nowrap;
     font-style: normal;
 }
+
+summary {
+  display: list-item;
+}

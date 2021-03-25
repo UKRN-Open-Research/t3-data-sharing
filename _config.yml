@@ -1,9 +1,12 @@
 ---
 
-topic:
-title:
-instructors: []
-instructor_emails: []
+topic: train-the-trainer
+title: Train-the-Trainer - Data Sharing
+instructors: [Matt Jaquiery, Jackie Thompson, Emma Wilson]
+instructor_emails:
+  - matt.jaquiery@psy.ox.ac.uk
+  - jackie.thompson@bristol.ac.uk
+  - Emma.Wilson@ed.ac.uk
 helpers: []
 # A list of hh|mm time formats [avoids jekyll auto-conversion].
 # Only days with scheduled items get a start time.
@@ -21,7 +24,7 @@ start_date:
 collaborative_notes:
 eventbrite:
 # list of files in path _includes/intro/* .md files can be customised; .html files cannot be customised. Files with an initial _ are ignored.
-optional_intro_sections: ["requirements", "accessibility"]
+optional_intro_sections: []
 
 # Custom but fixed fields
 kind: workshop

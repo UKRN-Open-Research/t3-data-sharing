@@ -113,22 +113,15 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email
+  Please email the instructors for more information.
   {% if site.instructor_emails %}
-  {% for email in site.instructor_emails %}
-  {% if forloop.last and site.instructor_emails.size > 1 %}
-  or
-  {% else %}
-  {% unless forloop.first %}
-  ,
-  {% endunless %}
+    The instructors' emails are:
+    <ul>
+    {% for email in site.instructor_emails %}
+      <li><a href='mailto:{{email}}'>{{email}}</a></li>
+    {% endfor %}
+    </ul>
   {% endif %}
-  <a href='mailto:{{email}}'>{{email}}</a>
-  {% endfor %}
-  {% else %}
-  to-be-announced
-  {% endif %}
-  for more information.
 </p>
 
 <hr/>
@@ -139,11 +132,11 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Everyone who participates in UKRN activities is required to conform to the <a href="https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/b/631/files/2020/07/Code-of-Conduct-extracted-from-UKRN-ToR-v3.2.pdf">UKRN Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
 
 <p class="text-center">
-  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
+  <a href="https://www.ukrn.org/contact-us/">
     <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
   </a>
 </p>
@@ -203,18 +196,18 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 <hr/>
 
 
+<h2 id="setup">Setup</h2>
 {% comment %}
 SETUP
 
 The setup page simply loops through the entries in site.setup_files and links them with available installation guides from _includes/install_instructions
 {% endcomment %}
-{% if site.setup_files %}
+{% if site.setup_files.length > 0 %}
 {% comment %}Sum up the times taken to install the software{% endcomment %}
 {% assign setup_time = 0 %}
 {% for X in site.setup_files %}
 {% assign setup_time = setup_time | plus: X.exercise %}
 {% endfor %}
-<h2 id="setup">Setup</h2>
 
 To participate in a {{ site.title | capitalize }}
 workshop,
@@ -227,4 +220,6 @@ that may be useful on the
 [Configuration Problems and Solutions wiki](https://github.com/carpentries/workshop-template/wiki/Configuration-Problems-and-Solutions).
 
 {% include intro/_participant-setup.html %}
+{% else %}
+To participate in this workshop you will need an up-to-date web browser.
 {% endif %}
