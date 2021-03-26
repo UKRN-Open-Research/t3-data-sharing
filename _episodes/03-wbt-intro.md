@@ -47,6 +47,8 @@ You'll need a GitHub account - you can create one via the Builder Tool if you do
 > 2. Press the button to log in to your GitHub account (it will let you create one if you need to!)
 > 3. **Create a new repository**
 > 4. Select a **topic** and a **title** for your workshop, then scroll to the bottom of the Customize Workshop page and click the button
+> 5. The 'workshop id' should be a two- or three-letter code for your university/institution followed by `DS` followed by today's date in YYYYMMDD format, followed by `_01`
+>   * This id allows us to keep track of where attendees are and to ensure you get a copy of the feedback attendees give
 {: .challenge}
 
 You now have a workshop website being generated.
@@ -76,7 +78,7 @@ Let's start by customising an introductory lesson.
 > 3. Select the dropdown for 'jspsych-born-open-data' and wait while the results are fetched
 > 4. Click 'Add items to stash' - you should now see a lot of lessons in the 'Stash'
 > 5. Find 'Introduction' and drag it into the 'Day 1' slot
-> 6. You'll see a green '+' icon appear in the lesson's icon bar - click it and you'll install the remote lesson into your workshop.
+> 6. You'll see a green '+' icon appear in the lesson's icon bar - click it and you'll install the remote lesson into your workshop
 {: .challenge}
 
 Now it's installed, you can edit its metadata ('Edit properties' icon) and content ('Edit content' icon).
