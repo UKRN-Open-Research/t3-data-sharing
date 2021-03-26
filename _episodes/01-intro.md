@@ -24,24 +24,12 @@ order: 100000
 You're here to get involved in helping your colleagues share their data.
 Increasing data sharing is part of the UKRN mission to improve the openness and robustness of research.
 We can help you put together a workshop which will make it easier to achieve real changes in your colleagues' behaviour, and you can bring your specialist knowledge and experience.
-We've probably all had that experience of reading through a tutorial on some open research topic and wondering "...but how do I actually _do_ that?"
-That's the problem we're aiming to solve together today.
 
 > ## Approach
 > * **Practical workflow change**: we want to produce actual changes to how people work by tweaking their default workflow
 > * **No homework** for busy researchers (including you!)
 > * **Better is good** - we want everyone doing something a bit better by the end
 {: .callout}
-
-### Data sharing
-
-Data sharing means something a bit different in practice to all of you - that's why we can't just produce a one-size-fits-all guide and be done with it!
-
-> ## Discussion `5 min`
-> What does data sharing mean for you?
->
-> What are you hoping your colleagues will know by the end of your workshops?
-{: .discussion}
 
 ### Course structure
 
@@ -53,3 +41,13 @@ At the end, there will be a large block of time for you to use the Workshop Buil
 > * Some ideas for how to engage colleagues and manage the workshop
 > * Membership of an enthusiastic community of like-minded researchers in various disciplines
 {: .checklist}
+
+### Data sharing
+
+Data sharing means something a bit different in practice to all of you - that's why we can't just produce a one-size-fits-all guide and be done with it!
+
+> ## Discussion `5 min`
+> What does data sharing mean for you?
+>
+> What are you hoping your colleagues will know by the end of your workshops?
+{: .discussion}
