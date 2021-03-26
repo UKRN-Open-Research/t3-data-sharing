@@ -21,7 +21,7 @@ country:
 latitude:
 longitude:
 start_date:
-collaborative_notes:
+collaborative_notes: https://docs.google.com/document/d/1XB2o22aRACYNlaGp9cg1gMo4qm1wuomCOkXl0T3RMNI/edit?usp=sharing
 eventbrite:
 # list of files in path _includes/intro/* .md files can be customised; .html files cannot be customised. Files with an initial _ are ignored.
 optional_intro_sections: []
