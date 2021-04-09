@@ -20,7 +20,7 @@ order: 800000
 
 ---
 
-* Please **[fill out the post-session survey]({{ site.post_survey }})** - it's really important for us to continue being able to obtain funding and develop this course.
+* Please **[fill out the post-session survey]({{ site.post_survey }}{{ site.workshop_id }})** - it's really important for us to continue being able to obtain funding and develop this course.
 
 * Please join our community of practice and stay in touch!
 
