@@ -1,10 +1,10 @@
 ---
 title: Workshop Builder Tool Introduction # title of the episode
-teaching: 10 # time required to teach (minutes)
-exercises: 20 # time required for participants to do the activities (minutes)
+teaching: 15 # time required to teach (minutes)
+exercises: 30 # time required for participants to do the activities (minutes)
 duration: # duration for a break, not needed if teaching/exercises are present (minutes)
 # summary of the episode content for displaying on the schedule page
-summary: An introduction to the Workshop Builder Tool and the Open Research Resource Browser, including a short exercise where you'll make a simple workshop website.
+summary: An introduction to the Workshop Builder Tool and the Open Research Resource Browser, including a short exercise where you'll set up your own workshop website.
 questions: # list of questions we are trying to answer
 objectives: # list of learning outcomes
  - Understand the basics of the Workshop Builder Tool
@@ -17,7 +17,7 @@ is-break:  # whether this episode is a break (has different presentation)
 ukrn_wb_rules: # list of rules for the UKRN Workshop Builder tool
 
 day: 1
-order: 300000
+order: 400000
 
 ---
 
@@ -72,7 +72,7 @@ You can add and customise lessons created by other users of the Workshop Builder
 There are also template lessons if you want to build yours from scratch.
 Let's start by customising an introductory lesson.
 
-> ## Add jspsych-born-open-data Introduction `10 min`
+> ## Add jspsych-born-open-data Introduction `15 min`
 > 1. Click 'Add Items to Stash'
 > 2. Enter 'mjaquiery' in the search box to narrow the results down
 > 3. Select the dropdown for 'jspsych-born-open-data' and wait while the results are fetched
@@ -105,7 +105,7 @@ The <a href="{{ site.ukrn_or_browser }}" target="_blank">Open Research Resource 
 
 You should find the Browser intuitive to use, but ask if you're not sure.
 
-> ## Can you... `5 min`
+> ## Can you... `10 min`
 > 1. Find NASA's GeneLab
 > 2. Work out how many Humanities resources there are
 > 3. Find the data repositories which mention 'sequence' in their description

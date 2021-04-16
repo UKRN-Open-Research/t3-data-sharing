@@ -1,6 +1,6 @@
 ---
 title: Running a Workshop # title of the episode
-teaching: 45 # time required to teach (minutes)
+teaching: 30 # time required to teach (minutes)
 exercises: 45 # time required for participants to do the activities (minutes)
 duration: # duration for a break, not needed if teaching/exercises are present (minutes)
 # summary of the episode content for displaying on the schedule page
