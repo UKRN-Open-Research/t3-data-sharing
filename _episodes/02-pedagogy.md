@@ -26,3 +26,9 @@ order: 200000
 
 Here we hand over to Louise Howson from the Bristol Institute of Teaching and Learning who is helping with some of the techniques for running an engaging and effective workshop.
 
+### Workshop administration
+
+We will not cover this in the workshop, but we have put together a checklist which you may find useful for the administrative side of organising and running your workshop.
+
+The checklist can be found <a href="{{ site.workshop_admin_doc }}" target="_blank">here</a>.
+
